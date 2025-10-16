@@ -10,9 +10,7 @@ public class MemberController {
     @PostMapping("/login")
     public boolean login(@RequestBody Member member) {
         boolean result = false;
-//        System.out.println(member.getId());
-//        System.out.println(member.getPwd());
-        if(member.getId().equals("test") && member.getPwd().equals("1234"));
+        if(member.getId().equals("test") && member.getPwd().equals("1234")) result = true;
 
         return result;
     }

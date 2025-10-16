@@ -26,7 +26,6 @@ export const groupByRows = (array, number) => {
 export const axiosPost = async (url, formData) => {
     // 2번째 방법
     const response = await axios.post(url, formData, {"Content-type": "application/json"});
-    console.log(response);
 //  1번째 방법 (길어서 위의 방법으로 사용함)
 //  const response = await axios.({
 //        method: "POST",
