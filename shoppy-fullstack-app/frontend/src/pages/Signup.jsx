@@ -46,6 +46,10 @@ export function Signup() {
 //             }
 //              많이 비효율적
             const result = await axiosPost(url, formData);
+            if(result) {
+                alert("회원가입이 완료되었습니다.");
+
+            } else alert("회원가입에 실패하였습니다.");
         }
     }
 
