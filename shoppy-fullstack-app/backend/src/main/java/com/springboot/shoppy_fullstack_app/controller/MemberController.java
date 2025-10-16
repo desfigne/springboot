@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/member")
 @CrossOrigin(origins = {"http://localhost:3000"})
 public class MemberController {
+
     @PostMapping("/login")
     public boolean login(@RequestBody Member member) {
         boolean result = false;
@@ -14,6 +15,7 @@ public class MemberController {
 
         return result;
     }
+
     @PostMapping("/signup")
     public boolean signup(@RequestBody Member member) {
         boolean result = true;
@@ -25,5 +27,15 @@ public class MemberController {
         System.out.println(member.getEmail());
 
         return result;
+    }
+
+    @PostMapping("/idcheck")
+    public String idcheck(@RequestBody Member member) {
+        boolean result = false; // 아이디 O: 1, 아이디 X: 0
+        String msg = "";
+        if(result) msg = "이미 사용 중인 아이디입니다.";
+        else msg = "사용이 가능한 아이디입니다.";
+
+        return msg;
     }
 }

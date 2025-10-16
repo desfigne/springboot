@@ -1,9 +1,11 @@
 import React, { useState, useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { validateSignupFormCheck } from '../utils/validate.js';
 import { initForm } from '../utils/init.js';
 import { axiosPost } from '../utils/dataFetch.js';
 
-export function Signup() { 
+export function Signup() {
+    const navigate = useNavigate();
     const initArray = ['id', 'pwd', 'cpwd', 'name', 'phone', 'emailName', 'emailDomain'];
     // const initForm = initArray.reduce((acc,cur) => {  //비동기
     //         acc[cur] = "";
@@ -48,9 +50,19 @@ export function Signup() {
             const result = await axiosPost(url, formData);
             if(result) {
                 alert("회원가입이 완료되었습니다.");
-
+                navigate("/login");
             } else alert("회원가입에 실패하였습니다.");
         }
+    }
+
+    /** 아이디 중복체크 */
+    const handleDuplicateCheck = async () => {
+        console.log(form.id);
+        const url = "http://localhost:8080/member/idcheck";
+        const data = { "id": form.id };
+        const id = form.id;
+        const result = await axiosPost(url, data);
+        alert(result);
     }
 
     return (
@@ -70,7 +82,8 @@ export function Signup() {
                                     ref={refs.idRef} 
                                     onChange={handleChangeForm}               
                                     placeholder = "아이디 입력(6~20자)" />
-                            <button type="button" 
+                            <button type="button"
+                                    onClick={handleDuplicateCheck}
                                   > 중복확인</button>
                             <input type="hidden" id="idCheckResult" value="default" />
                         </div>
