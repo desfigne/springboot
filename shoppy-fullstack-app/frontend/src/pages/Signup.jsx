@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { validateSignupFormCheck } from '../utils/validate.js';
 import { initForm } from '../utils/init.js';
+import { axiosPost } from '../utils/dataFetch.js';
 
 export function Signup() { 
     const initArray = ['id', 'pwd', 'cpwd', 'name', 'phone', 'emailName', 'emailDomain'];
@@ -29,13 +30,24 @@ export function Signup() {
         setForm(initForm(initArray));       
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         const param = {  refs: refs,   setErrors: setErrors }
         if(validateSignupFormCheck(param)) {
-            console.log("submit-->", form);            
+//             console.log("submit-->", form);
+            /**
+               스프링부트 연동 - Post, /member/signup
+            */
+            const url = "http://localhost:8080/member/signup";
+            const formData = { ...form, email: form.emailName.concat('@', form.emailDomain) }
+//             const formData = {
+//                 "id": form.id,
+//                 ...
+//             }
+//              많이 비효율적
+            const result = await axiosPost(url, formData);
         }
-    }    
+    }
 
     return (
     <div className="content">
