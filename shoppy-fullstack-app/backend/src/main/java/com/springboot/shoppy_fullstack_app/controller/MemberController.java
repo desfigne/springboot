@@ -16,15 +16,13 @@ public class MemberController {
     }
     @PostMapping("/signup")
     public boolean signup(@RequestBody Member member) {
-        boolean result = false;
+        boolean result = true;
 
         System.out.println(member.getId());
         System.out.println(member.getPwd());
         System.out.println(member.getName());
         System.out.println(member.getPhone());
         System.out.println(member.getEmail());
-
-        result = true;
 
         return result;
     }
