@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e82e7c1-f52b-4ac0-a814-2ee921ff520e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/backend/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/backend/src/main/java/com/springboot/shoppy_fullstack_app/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/backend/src/main/java/com/springboot/shoppy_fullstack_app/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/backend/src/main/java/com/springboot/shoppy_fullstack_app/dto/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/backend/src/main/java/com/springboot/shoppy_fullstack_app/dto/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/backend/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/backend/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/app/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/app/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/components/product/ProductList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/components/product/ProductList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/feature/auth/authAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/feature/auth/authAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/feature/auth/authSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/feature/auth/authSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/feature/product/productSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/feature/product/productSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/pages/CheckoutInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/pages/CheckoutInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/pages/ProductDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/pages/ProductDetail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/pages/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/pages/Signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/utils/dataFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/src/utils/dataFetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/리덕스 정리.md" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/frontend/리덕스 정리.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppy-fullstack-app/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/shoppy-fullstack-app/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="34JF2SWsx7nAacqUzqejUpMJTHX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/springboot2"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e82e7c1-f52b-4ac0-a814-2ee921ff520e" name="Changes" comment="" />
+      <created>1760923560771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760923560771</updated>
+    </task>
+    <servers />
+  </component>
+</project>
